@@ -1,5 +1,7 @@
-enum Color {
-  RED,
-  GREEN,
-  BLUE,
+{
+  enum Color {
+    RED,
+    GREEN,
+    BLUE,
+  }
 }

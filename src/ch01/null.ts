@@ -10,7 +10,9 @@
  * 유니언 타입인 string | null | undefined를 사용할 수 있습니다.
  */
 
-const u: undefined = undefined;
-const n: null = null;
+{
+  const u: undefined = undefined;
+  const n: null = null;
 
-console.log(u, n);
+  console.log(u, n);
+}
