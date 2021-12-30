@@ -18,8 +18,8 @@ declare function create(o: object | null): any;
   /**
    * 원시타입은 저장할 수 없습니다.
    */
-  create('문자열 입니다'); // 오류
-  create(44444); // 오류
-  create(false); // 오류
-  create(undefined); // 오류
+  // create('문자열 입니다'); // 오류
+  // create(44444); // 오류
+  // create(false); // 오류
+  // create(undefined); // 오류
 }
