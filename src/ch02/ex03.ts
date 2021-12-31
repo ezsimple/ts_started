@@ -12,7 +12,7 @@
   }
 
   function createSquare(config: SquareConfig): { color: string; area: number } {
-    const newSquare = { color: 'white', area: 100 };
+    const newSquare = {color: 'white', area: 100};
     if (config.color) {
       newSquare.color = config.color;
     }
@@ -23,6 +23,7 @@
 
     return newSquare;
   }
-  const mySquare = createSquare({ color: 'black' });
+
+  const mySquare = createSquare({color: 'black'});
   console.log(mySquare);
 }
