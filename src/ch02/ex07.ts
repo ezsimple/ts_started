@@ -17,4 +17,14 @@
   const myStr: string = myArray[0];
 
   console.log(myStr);
+
+  class Animal {
+    name: string;
+  }
+
+  class Dog extends Animal {
+    breed: string;
+  }
+
 }
+
