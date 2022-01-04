@@ -26,5 +26,24 @@
     breed: string;
   }
 
+  // 이해가 잘 안됨....  (오류 발생)
+  // interface NotOkay {
+  //   [x: number]: Animal;
+  //   [y: string]: Dog;
+  // }
+
+  interface NumberDictionary {
+    [index: string]: number | string;
+    length: number;
+    name: string;
+  }
+
+  interface ReadonlyStringArray {
+    readonly [index: number]: string;
+  }
+
+  const myArray2: ReadonlyStringArray = ["1", "2"];
+  // myArray2[0] = "hello"; // Index signature in type 'ReadonlyStringArray' only permits reading.
+
 }
 

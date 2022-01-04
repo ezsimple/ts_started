@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "module": "commonjs",                                /* Specify what module code is generated. */
-    "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
-    "outDir": "dist",                                   /* Specify an output folder for all emitted files. */
-    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
-    "strict": true,                                      /* Enable all strict type-checking options. */
-    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
-    "moduleResolution": "node",                // node_modules를 뒤집니다
-    "strictPropertyInitialization": false      // 초기화값이 없어도 오류 발생 시키지 않음
+    "target": "es2016",                       // Set the JavaScript language version for emitted JavaScript and include compatible library declarations.
+    "module": "commonjs",                     // Specify what module code is generated.
+    "sourceMap": true,                        // Create source map files for emitted JavaScript files.
+    "outDir": "dist",                         // Specify an output folder for all emitted files.
+    "esModuleInterop": true,                  // Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility.
+    "forceConsistentCasingInFileNames": true, // Ensure that casing is correct in imports.
+    "strict": true,                           // Enable all strict type-checking options.
+    "skipLibCheck": true,                     // Skip type checking all .d.ts files.
+    "moduleResolution": "node",               // node_modules를 뒤집니다
+    // ------------------------------------------------------------------------------------
+    "strictPropertyInitialization": false,    // 초기화값이 없어도 오류 발생 시키지 않음
+    "noImplicitAny": false,                   // return type Any allow
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }
